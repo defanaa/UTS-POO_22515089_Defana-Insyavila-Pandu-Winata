@@ -153,4 +153,3 @@ atribut:
 - bacaString(prompt: String): String
 
 
-
