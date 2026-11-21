@@ -84,3 +84,28 @@ method :
 + lanjutkanStatus(): boolean   
 + tampilkanInfo(): void
 
+
+# kantorEkspedisi
+atribut :
+- nama : string
+- kota : string
+- tarifperKg : double
+- TARIF_DEFAULT : double (konstanta, static final)
+- daftarPaket : SortedList
+- daftarpengirim : arrayList<pengirim>
+- daftarpengiriman : ArrayList<Pengiriman>
+
+konstruktor :
++ kantorEkspedisi ()
++ KantorEkspedisi(nama : string, kota : string, tarifperKg : double)
+
+  method :
++ tambahPaket(paket: Paket): boolean
++ tambahPengirim(pengirim: Pengirim): boolean
++ buatPengiriman(resi: String, idPengirim: String, kotaTujuan: String): Pengiriman
++ cariPaket(resi: String): Paket
++ cariPengirim(idPengirim: String): Pengirim
++ updateStatusPaket(resi: String): boolean
++ tampilkanSemuaPaket(): void
++ tampilkanSemuaPengirim(): void
++ tampilkanRingkasan(): void
