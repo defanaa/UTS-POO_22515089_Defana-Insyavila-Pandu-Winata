@@ -60,3 +60,27 @@ atribut :
 + tambahJumlahKirim(): void
 + tampilkanInfo(): void
 + isPelangganSetia(): boolean
+
+
+# pengiriman
+atribut :
+- idpengiriman : string
+- paket : paket
+- pengirim : pengirim
+- kotaTujuan : string
+- ongkir : double
+
+konstruktor :
++ pengiriman ()
++ pengiriman(idpengiriman : string, paket:psket, pengirim : pengirim, kotaTujuan: string, tarifperKg : double)
+ 
+method :
++ getpaket() :paket
++ getPengirim(): Pengirim
++ getKotaTujuan(): String
++ setKotaTujuan(kotaTujuan: String): void
++  getOngkir(): double
++ hitungOngkir(tarifPerKg: double): double
++ lanjutkanStatus(): boolean   
++ tampilkanInfo(): void
+
