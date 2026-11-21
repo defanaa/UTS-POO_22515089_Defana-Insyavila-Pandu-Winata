@@ -134,3 +134,23 @@ kompleksitas :
 - remove : 0(n)
 - search : 0 (log n)
 - get : 0 (1)
+
+# Main
+atribut:
+- scanner: Scanner
+- kantor: KantorEkspedisi
+  method :
++ main (args : String []) : void
+- tampilkanMenu(): void
+- menuPaket(): void
+- menuPengirim(): void
+- menuBuatPengiriman(): void
+- menuCariData(): void
+- menuSortedList(): void
+- menuRingkasan(): void
+- bacaInt(prompt: String): int
+- bacaDouble(prompt: String): double
+- bacaString(prompt: String): String
+
+
+
