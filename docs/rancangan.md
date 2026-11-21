@@ -109,3 +109,28 @@ konstruktor :
 + tampilkanSemuaPaket(): void
 + tampilkanSemuaPengirim(): void
 + tampilkanRingkasan(): void
+
+
+# sortedlist
+atribut :
+- data : ArrayList<paket>
+- kapasitas : int
+
+konstruktor :
++ sortedList (kapasitas : int)
+  
+method :
++ insert (pakeet : paket) : boolean
++ remove (resi : string): boolean
++ search (resi : string): paket
++ get(index : int) : paket
++ tampilkan() : void
++ size () : int
++ isEmpty() : boolean
++ isfull() : boolean
+
+kompleksitas :
+- insert : 0(n)
+- remove : 0(n)
+- search : 0 (log n)
+- get : 0 (1)
