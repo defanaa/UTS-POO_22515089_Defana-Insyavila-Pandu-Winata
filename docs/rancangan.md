@@ -34,3 +34,29 @@ atribut :
 aturan bisnis :
 - berat harus > 0
 - status hanya boleh maju satu tahap
+
+
+
+# pengirim
+
+atribut :
+- idPengirim : string
+- nama : string
+- noTelp: String
+- jumlahKirim: int
+
+  konstruktor:
++ Pengirim()
++ Pengirim(idPengirim: String, nama: String, noTelp: String)
+
+  method:
++ getIdPengirim(): String
++ setIdPengirim(idPengirim: String): void
++ getNama(): String
++ setNama(nama: String): void
++ getNoTelp(): String
++ setNoTelp(noTelp: String): void
++ getJumlahKirim(): int
++ tambahJumlahKirim(): void
++ tampilkanInfo(): void
++ isPelangganSetia(): boolean
