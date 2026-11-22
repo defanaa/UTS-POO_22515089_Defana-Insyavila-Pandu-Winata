@@ -149,7 +149,7 @@ atribut:
 - menuSortedList(): void
 - menuRingkasan(): void
 - bacaInt(prompt: String): int
-- bacaDouble(prompt: String): double
+- bacaDoubl(prompt: String): double
 - bacaString(prompt: String): String
 
 
